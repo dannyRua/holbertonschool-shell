@@ -9,4 +9,5 @@ ls -l > list files in long formati
 ls -l -la > list files in long format including hide file
 ls -l -la -na > same shit plus, list files with user and group IDs numerically
 mkdir > to create a new directory
-rm > delete a file 
+rm > delete a file
+rmdir > delete a directory
