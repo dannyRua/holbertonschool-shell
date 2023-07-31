@@ -11,3 +11,4 @@ ls -l -la -na > same shit plus, list files with user and group IDs numerically
 mkdir > to create a new directory
 rm > delete a file
 rmdir > delete a directory
+cd - > changes the working directory to the previous one
