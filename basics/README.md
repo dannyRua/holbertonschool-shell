@@ -12,3 +12,4 @@ mkdir > to create a new directory
 rm > delete a file
 rmdir > delete a directory
 cd - > changes the working directory to the previous one
+ls -la .. List all files (even ones with names beginning with a period character, which are normally hidden) in the parent of the working directory in long format
