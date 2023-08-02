@@ -8,6 +8,7 @@ touch some_file > creates an empty file
 chmod u+x file > adds execute permission to the owner of the file
 chmod 754 hello > adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
 chmod a+x hello > adds execution permission to the owner, the group owner and the other users, to the file hello
-chmod 007 hello > sets the permission to the file hello
+chmod 007 hello > sets the permission to the file hello   
 chmod 753 hello > sets the mode of the file -rwxr-x-wx
 chmod --reference=olleh hello > sets the mode of the file hello the same as olleh's mode
+chmod a+X /directory/ > adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
